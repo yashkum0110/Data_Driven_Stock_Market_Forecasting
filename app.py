@@ -44,6 +44,10 @@ try:
 
     plot_raw_data()
 
+    if 'Date' in data.columns and 'Close' in data.columns:
+        df_train = data[['Date','Close']].copy() # Use .copy() to avoid SettingWithCopyWarning
+        df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
+        
 except Exception as e:
     st.error(f"An error occurred: {e}")
     st.error("Check if the stock ticker is valid and data is available.")    
