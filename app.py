@@ -35,6 +35,15 @@ try:
     st.subheader('Raw data')
     st.write(data.tail())
 
+    def plot_raw_data():
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
+        fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
+        fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
+        st.plotly_chart(fig)
+
+    plot_raw_data()
+
 except Exception as e:
     st.error(f"An error occurred: {e}")
     st.error("Check if the stock ticker is valid and data is available.")    
