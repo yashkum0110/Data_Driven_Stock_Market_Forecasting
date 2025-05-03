@@ -119,13 +119,15 @@ your_project_directory/
 <h2>🖼️ Screenshots</h2>
 
 <p align="center">
-  [Add your application screenshots here!]
+  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220314.png
+  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220327.png
+  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220345.png
 </p>
 
 <h2>🧑‍💻 Author</h2>
 
 <p>
-  [Your Name / GitHub Username]
+  [Yashwanth Kumar R / GitHub Username]
 </p>
 
 <p align="center">
