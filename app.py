@@ -47,6 +47,11 @@ try:
     if 'Date' in data.columns and 'Close' in data.columns:
         df_train = data[['Date','Close']].copy() # Use .copy() to avoid SettingWithCopyWarning
         df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
+
+        m = Prophet()
+        m.fit(df_train)
+        future = m.make_future_dataframe(periods=period)
+        forecast = m.predict(future)
         
 except Exception as e:
     st.error(f"An error occurred: {e}")
