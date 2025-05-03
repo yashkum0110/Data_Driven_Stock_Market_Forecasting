@@ -116,14 +116,6 @@ your_project_directory/
     </li>
 </ol>
 
-<h2>🖼️ Screenshots</h2>
-
-<p align="center">
-  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220314.png
-  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220327.png
-  c:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-05-03 220345.png
-</p>
-
 <h2>🧑‍💻 Author</h2>
 
 <p>
