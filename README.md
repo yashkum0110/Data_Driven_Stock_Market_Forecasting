@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_GITHUB_REPO_URL">
+  <a href="https://github.com/yashkum0110/Data_Driven_Stock_Market_Forecasting.git">
     <img src="https://img.shields.io/badge/View%20on%20GitHub-blue?logo=github" alt="GitHub Repo">
   </a>
-  <a href="YOUR_STREAMLIT_APP_URL" target="_blank">
+  <a href="http://192.168.29.14:8501" target="_blank">
     <img src="https://img.shields.io/badge/Live%20Demo-brightgreen?logo=streamlit" alt="Streamlit App">
   </a>
 </p>
