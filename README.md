@@ -119,7 +119,7 @@ your_project_directory/
 <h2>🧑‍💻 Author</h2>
 
 <p>
-  [Yashwanth Kumar R / GitHub Username]
+  [Yashwanth Kumar R ]
 </p>
 
 <p align="center">
